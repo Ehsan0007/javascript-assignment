@@ -1,0 +1,10 @@
+var a = prompt("Enter Your First Name");
+var b=prompt("Enter Your Last name");
+var c=prompt("Enter Your Email Address ");
+var d=prompt("Enter Your Phone Number ");
+document.write('<table border="1">');
+document.write('<th>First Name</th>');
+document.write('<th>last Name</th>');
+document.write('<th>Email</th>');
+document.write('<th>Mobile No</th>');
+document.write('<tr><td>'+ a +'</td><td>'+b+'</td><td>'+c+'</td><td>'+d+'</td></tr>');
